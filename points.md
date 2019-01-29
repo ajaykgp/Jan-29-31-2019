@@ -8,6 +8,7 @@
 * Type inference
 * **return** keyword is optional in case of one line implementation
 * **return** keyword is mandatory if you have a body
+* Cannot define state
 
 
 * Functional programming (only has functions; functions are first class citizens)
