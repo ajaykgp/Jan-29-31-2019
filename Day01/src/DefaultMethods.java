@@ -7,7 +7,7 @@ public class DefaultMethods {
 		sq.erase();
 		
 		Shape triangle = () -> 100 * 100;
-		triangle.area();
+		System.out.println(triangle.area());
 		triangle.draw();
 		triangle.erase();
 	}
