@@ -11,6 +11,19 @@
 * Cannot define state
 
 
+### Functional Interfaces
+
+* **Predicate** takes in any type as Input and returns **Boolean** as output
+* Example is **filter**
+
+* **Function** takes any type as Input and returns any type as Output
+* Example is **map, reduce**
+
+* **Supplier** does not take argument and returns any type as Output
+
+* **Consumer** takes any type as argument and does not return anything
+* Example is **forEach**
+
 * Functional programming (only has functions; functions are first class citizens)
 * Define what to do; the hows is taken care of
 * Declarative style of programming
