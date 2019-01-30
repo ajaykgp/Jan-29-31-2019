@@ -18,12 +18,13 @@ public class OptionalExample {
 //		}
 		
 		Optional<String> symbol1 = getRomanSymbolFor(4);
-		if(symbol1.isPresent()) {
-			System.out.println(symbol1.get());
-		}
-		else {
-			System.out.println("Not present");
-		}
+		System.out.println(symbol1.get());
+//		if(symbol1.isPresent()) {
+//			System.out.println(symbol1.get());
+//		}
+//		else {
+//			System.out.println("Not present");
+//		}
 		
 	}
 
